@@ -53,7 +53,7 @@ export default function Navbar() {
           {/* WhatsApp CTA Button */}
           <div className="hidden md:block">
             <a
-              href="https://wa.me/919673622295?text=Hi%2C%20I%20am%20interested%20in%20your%20jewellery%20collection"
+              href="https://wa.me/917796869904?text=Hi%2C%20I%20am%20interested%20in%20your%20jewellery%20collection"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2 bg-primary text-primary-foreground text-xs font-sans font-medium tracking-[0.15em] uppercase rounded-full hover:bg-primary/90 transition-all duration-300"
@@ -86,7 +86,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <a
-                href="https://wa.me/919673622295?text=Hi%2C%20I%20am%20interested%20in%20your%20jewellery%20collection"
+                href="https://wa.me/917796869904?text=Hi%2C%20I%20am%20interested%20in%20your%20jewellery%20collection"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-primary-foreground text-xs font-sans font-medium tracking-[0.15em] uppercase rounded-full mt-4"

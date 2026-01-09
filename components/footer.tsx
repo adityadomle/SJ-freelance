@@ -19,7 +19,7 @@ export default function Footer() {
 
             {/* Social / WhatsApp */}
             <a
-              href="https://wa.me/919673622295?text=Hi%2C%20I%20am%20interested%20in%20your%20jewellery"
+              href="https://wa.me/917796869904?text=Hi%2C%20I%20am%20interested%20in%20your%20jewellery"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-green-600 text-white text-xs font-sans font-medium tracking-[0.15em] uppercase rounded-full hover:bg-green-700 transition-colors"
@@ -66,7 +66,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-rose-gold shrink-0" />
-                <span className="text-sm font-sans text-background/60">+91 9158262959</span>
+                <a
+                  href="https://wa.me/917796869904?text=Hi%2C%20I%20would%20like%20to%20inquire%20about%20your%20jewellery"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-sans text-background/60 hover:text-rose-gold transition-colors"
+                >
+                  +91 7796869904
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-rose-gold shrink-0" />

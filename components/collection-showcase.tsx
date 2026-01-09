@@ -175,7 +175,7 @@ export default function CollectionShowcase() {
         {/* View More CTA */}
         <div className="text-center mt-14">
           <a
-            href="https://wa.me/919673622295?text=Hi%2C%20I%20would%20like%20to%20see%20more%20designs"
+            href="https://wa.me/917796869904?text=Hi%2C%20I%20would%20like%20to%20see%20more%20designs"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 px-7 py-3.5 border border-primary/40 text-foreground font-sans text-xs font-medium tracking-[0.2em] uppercase rounded-full hover:bg-primary/5 transition-all duration-300"

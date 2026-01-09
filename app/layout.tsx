@@ -20,7 +20,19 @@ export const metadata: Metadata = {
   title: "स्वप्निल ज्वेलर्स | Pure Gold Craftsmanship",
   description:
     "Experience the finest gold jewellery crafted with generations of expertise. Pure gold rings, bangles, necklaces, chains & bracelets.",
-  keywords: ["gold jewellery", "pure gold", "rings", "bangles", "necklaces", "Indian jewellery", "स्वप्निल ज्वेलर्स"],
+  keywords: [
+    "gold jewellery",
+    "pure gold",
+    "rings",
+    "bangles",
+    "necklaces",
+    "Indian jewellery",
+    "स्वप्निल ज्वेलर्स",
+  ],
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   generator: "v0.app",
 }
 
@@ -30,9 +42,9 @@ export const viewport = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: ReactNode
-}>) {
+}) {
   return (
     <html lang="en">
       <body className={`${playfair.variable} ${inter.variable} font-sans antialiased`}>

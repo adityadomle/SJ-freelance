@@ -19,7 +19,7 @@ export default function Footer() {
 
             {/* Social / WhatsApp */}
             <a
-              href="https://wa.me/919999999999?text=Hi%2C%20I%20am%20interested%20in%20your%20jewellery"
+              href="https://wa.me/919673622295?text=Hi%2C%20I%20am%20interested%20in%20your%20jewellery"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-green-600 text-white text-xs font-sans font-medium tracking-[0.15em] uppercase rounded-full hover:bg-green-700 transition-colors"

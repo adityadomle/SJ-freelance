@@ -24,7 +24,7 @@ export default function WhatsAppCta() {
         </p>
 
         <a
-          href="https://wa.me/919999999999?text=Hi%2C%20I%20am%20interested%20in%20your%20jewellery%20collection.%20Please%20share%20more%20designs."
+          href="https://wa.me/919673622295?text=Hi%2C%20I%20am%20interested%20in%20your%20jewellery%20collection.%20Please%20share%20more%20designs."
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 px-8 py-4 bg-primary-foreground text-foreground font-sans text-sm font-medium tracking-[0.15em] uppercase rounded-full hover:bg-primary-foreground/95 transition-all duration-300 shadow-xl"

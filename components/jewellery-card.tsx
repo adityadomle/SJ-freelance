@@ -40,7 +40,7 @@ export default function JewelleryCard({ item }: { item: JewelleryItem }) {
 
         {/* Quick Action */}
         <a
-          href={`https://wa.me/919999999999?text=Hi%2C%20I%20am%20interested%20in%20${encodeURIComponent(item.name)}%20(${item.weight})`}
+          href={`https://wa.me/919673622295?text=Hi%2C%20I%20am%20interested%20in%20${encodeURIComponent(item.name)}%20(${item.weight})`}
           target="_blank"
           rel="noopener noreferrer"
           className="absolute bottom-4 left-1/2 -translate-x-1/2 px-5 py-2 bg-card text-foreground text-xs font-sans font-medium tracking-[0.15em] uppercase rounded-full opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 hover:bg-primary hover:text-primary-foreground flex items-center gap-2"

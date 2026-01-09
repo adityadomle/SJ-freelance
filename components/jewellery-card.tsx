@@ -32,10 +32,7 @@ export default function JewelleryCard({ item }: { item: JewelleryItem }) {
           className={`absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent transition-opacity duration-500 ${
             isHovered ? "opacity-100" : "opacity-0"
           }`}
-          style={{
-            transform: "translateX(-100%) rotate(45deg)",
-            animation: isHovered ? "shine 0.8s ease-in-out" : "none",
-          }}
+          style={isHovered ? { animation: "shine 0.8s ease-in-out" } : undefined}
         />
 
         {/* Overlay */}
@@ -56,26 +53,15 @@ export default function JewelleryCard({ item }: { item: JewelleryItem }) {
       </div>
 
       {/* Content */}
-      <div className="p-5">
-        <h3 className="text-lg font-serif font-medium text-foreground mb-2 group-hover:text-primary transition-colors">
+      <div className="p-3 lg:p-5">
+        <h3 className="text-sm lg:text-lg font-serif font-medium text-foreground mb-1.5 lg:mb-2 group-hover:text-primary transition-colors">
           {item.name}
         </h3>
         <div className="flex items-center justify-between">
-          <span className="text-xs font-sans tracking-[0.15em] uppercase text-muted-foreground">{item.category}</span>
-          <span className="text-base font-serif font-medium text-primary">{item.weight}</span>
+          <span className="text-[10px] lg:text-xs font-sans tracking-[0.15em] uppercase text-muted-foreground">{item.category}</span>
+          <span className="text-sm lg:text-base font-serif font-medium text-primary">{item.weight}</span>
         </div>
       </div>
-
-      <style jsx>{`
-        @keyframes shine {
-          0% {
-            transform: translateX(-100%) rotate(45deg);
-          }
-          100% {
-            transform: translateX(100%) rotate(45deg);
-          }
-        }
-      `}</style>
     </div>
   )
 }

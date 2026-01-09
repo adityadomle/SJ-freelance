@@ -1,4 +1,4 @@
-import type React from "react"
+import type { ReactNode } from "react"
 import type { Metadata } from "next"
 import { Playfair_Display, Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description:
     "Experience the finest gold jewellery crafted with generations of expertise. Pure gold rings, bangles, necklaces, chains & bracelets.",
   keywords: ["gold jewellery", "pure gold", "rings", "bangles", "necklaces", "Indian jewellery", "स्वप्निल ज्वेलर्स"],
-  generator: 'v0.app'
+  generator: "v0.app",
 }
 
 export const viewport = {
@@ -31,7 +31,7 @@ export const viewport = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: ReactNode
 }>) {
   return (
     <html lang="en">

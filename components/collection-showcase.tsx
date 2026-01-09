@@ -166,7 +166,7 @@ export default function CollectionShowcase() {
         </div>
 
         {/* Jewellery Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6">
           {filteredItems.map((item) => (
             <JewelleryCard key={item.id} item={item} />
           ))}

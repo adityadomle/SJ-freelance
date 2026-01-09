@@ -1,7 +1,7 @@
 import { SectionDivider } from "./decorative-elements"
 
 const stats = [
-  { value: "50+", label: "Years of Legacy" },
+  { value: "20+", label: "Years of Legacy" },
   { value: "10K+", label: "Happy Customers" },
   { value: "100%", label: "Pure Gold" },
   { value: "5000+", label: "Unique Designs" },

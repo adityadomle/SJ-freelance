@@ -59,22 +59,22 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-rose-gold shrink-0 mt-0.5" />
                 <span className="text-sm font-sans text-background/60">
-                  123 Jewellery Lane, Gold Market,
+                  Swapnil Jewellers, Virshi,
                   <br />
-                  Mumbai, Maharashtra 400001
+                  Tal-Sakoli, Dist. Bhandara, Maharashtra, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-rose-gold shrink-0" />
-                <span className="text-sm font-sans text-background/60">+91 99999 99999</span>
+                <span className="text-sm font-sans text-background/60">+91 9158262959</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-rose-gold shrink-0" />
-                <span className="text-sm font-sans text-background/60">info@swapniljewellers.com</span>
+                <span className="text-sm font-sans text-background/60">jewellersswapnil@gmail.com</span>
               </li>
               <li className="flex items-center gap-3">
                 <Clock className="w-4 h-4 text-rose-gold shrink-0" />
-                <span className="text-sm font-sans text-background/60">Mon-Sat: 10AM - 8PM</span>
+                <span className="text-sm font-sans text-background/60">Sun-Sat: 8AM - 8PM</span>
               </li>
             </ul>
           </div>
@@ -82,7 +82,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="py-5 border-t border-background/10 flex flex-col md:flex-row items-center justify-between gap-3">
-          <p className="text-xs font-sans text-background/40">&copy; 2025 स्वप्निल ज्वेलर्स. All rights reserved.</p>
+          <p className="text-xs font-sans text-background/40">&copy; 2026 स्वप्निल ज्वेलर्स. All rights reserved.</p>
           <p className="text-xs font-sans text-background/40">Crafted with care for generations of elegance</p>
         </div>
       </div>

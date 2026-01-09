@@ -30,7 +30,7 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-5xl mx-auto px-6">
-        <div className="flex items-center justify-between h-18">
+        <div className="flex items-center justify-between h-14 md:h-16">
           <Link href="/" className="flex items-center">
             <span className="text-2xl md:text-3xl font-serif font-semibold tracking-wide text-primary">
               स्वप्निल ज्वेलर्स

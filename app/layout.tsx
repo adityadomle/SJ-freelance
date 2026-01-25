@@ -4,6 +4,8 @@ import { Playfair_Display, Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
+import LenisProvider from "@/components/lenis-provider"
+
 const playfair = Playfair_Display({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
@@ -48,7 +50,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${playfair.variable} ${inter.variable} font-sans antialiased`}>
-        {children}
+        <LenisProvider>
+          {children}
+        </LenisProvider>
         <Analytics />
       </body>
     </html>
